@@ -1,0 +1,405 @@
+body{
+    margin: 0;
+}
+.login-page,
+.login-page * {
+  box-sizing: border-box;
+}
+.login-page {
+  background: #ffffff;
+  width: 100%;
+  position: relative;
+}
+.undraw-home-settings-re-pkya-1 {
+  position: relative;
+  width: 40%;
+  left: 5%;
+  top: 129px;
+  overflow: visible;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 60%;
+  position: absolute;
+  right: 0;
+  top: 86px;
+}
+.welcome-back {
+  color: #000000;
+  text-align: left;
+  font: 700 45px "Inter", sans-serif;
+  position: relative;
+}
+.left {
+  flex-shrink: 0;
+  width: 60%;
+  height: 516px;
+  position: relative;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 516px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.email {
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.username {
+  color: #000000;
+  text-align: left;
+  font: 500 32px "Inter", sans-serif;
+  position: relative;
+}
+.emailfield {
+  background: rgba(217, 217, 217, 0.8);
+  border-radius: 50px;
+  padding: 18px 21px 18px 21px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 400px;
+  position: relative;
+  overflow: hidden;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  font: 400 24px "Inter", sans-serif;
+  position: relative;
+  border: none;
+}
+.password {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 180px;
+  position: absolute;
+}
+.password2 {
+  color: #000000;
+  text-align: left;
+  font: 500 32px "Inter", sans-serif;
+  position: relative;
+}
+.password-forgot-password {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.passwordfield {
+  background: rgba(217, 217, 217, 0.8);
+  border-radius: 50px;
+  padding: 18px 21px 18px 21px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 400px;
+  position: relative;
+  overflow: hidden;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  font: 400 24px "Inter", sans-serif;
+  position: relative;
+  border: none;
+
+}
+.forgot-password {
+  color: #000000;
+  text-align: left;
+  font: 400 24px "Inter", sans-serif;
+  position: relative;
+}
+.login-register {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 112px;
+  position: relative;
+  width: 400px;
+}
+.emailfield2 {
+  background: #2c4bb5;
+  border-radius: 50px;
+  padding: 18px 21px 18px 21px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 400px;
+  position: relative;
+  overflow: hidden;
+  color: #ffffff;
+  text-align: left;
+  font: 700 24px "Inter", sans-serif;
+  position: relative;
+  border: none;
+  cursor: pointer;
+}
+.login {
+  color: #ffffff;
+  text-align: left;
+  font: 700 24px "Inter", sans-serif;
+  position: relative;
+}
+.don-t-have-an-account-register {
+  text-align: left;
+  font: 400 24px "Inter", sans-serif;
+  position: relative;
+}
+.don-t-have-an-account-register-span {
+  color: #000000;
+  font: 400 24px "Inter", sans-serif;
+}
+.don-t-have-an-account-register-span2 {
+  color: #2c4bb5;
+  font: 400 24px "Inter", sans-serif;
+  text-decoration: none;
+}
+.smart-rent {
+  color: #000000;
+  text-align: center;
+  font: 700 36px "Inter", sans-serif;
+  position: absolute;
+  left: 59px;
+  top: 42px;
+  text-decoration: none;
+}
+@media (min-width:0px) and (max-width:640px){
+    .login-page-phone-320-px,
+.login-page-phone-320-px * {
+  box-sizing: border-box;
+}
+.login-page-phone-320-px {
+  background: #ffffff;
+  width: 100%;
+  position: relative;
+}
+.undraw-home-settings-re-pkya-1 {
+  position: absolute;
+  height: 190px;
+  width: 100%;
+  left: 0;
+  top: 60px;
+  overflow: visible;
+}
+.left{
+    height: 325px;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 390px;
+  position: relative;
+  left: 0;
+  top: 300px;
+}
+.welcome-back {
+  color: #000000;
+  text-align: left;
+  font: 600 30px "Inter", sans-serif;
+  position: relative;
+  width: 255px;
+  height: 47px;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 100%;
+  position: relative;
+  height: 325px;
+}
+.email {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: absolute;
+  top:0;
+  width: 100%;
+}
+.emailfield {
+  background: rgba(217, 217, 217, 0.8);
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width:100%;
+  height: 41px;
+  position: relative;
+  overflow: hidden;
+  text-align: left;
+  font: 400 12px "Inter", sans-serif;
+  position: relative;
+}
+.password {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: absolute;
+  width: 100%;
+  height: 105px;
+  top: 100px;
+}
+.password2 {
+  color: #000000;
+  text-align: left;
+  font: 500 16px "Inter", sans-serif;
+  position: relative;
+}
+.password-forgot-password {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  position: absolute;
+  top: 15%;
+  width: 100%;
+
+}
+.passwordfield {
+  background: rgba(217, 217, 217, 0.8);
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 100%;
+  height: 42px;
+  position: relative;
+  top:15px;
+  overflow: hidden;
+  text-align: left;
+  font: 400 12px "Inter", sans-serif;
+}
+.enter-your-password {
+  color: rgba(0, 0, 0, 0.57);
+  text-align: left;
+  font: 400 italic 12px "Inter", sans-serif;
+  position: relative;
+}
+.forgot-password {
+  color: #000000;
+  text-align: left;
+  font: 400 12px "Inter", sans-serif;
+  position: relative;
+  width: 114px;
+  height: 19px;
+}
+.login-register {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  width: 100%;
+  position: absolute;
+  bottom:0;
+}
+.emailfield2 {
+  background: #2c4bb5;
+  border-radius: 50px;
+  padding: 18px 21px 18px 21px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 100%;
+  height: 42px;
+  position: relative;
+  overflow: hidden;
+  color: #ffffff;
+  text-align: left;
+  font: 700 12px "Inter", sans-serif;
+  position: relative;
+  cursor: pointer;
+}
+.login {
+  color: #ffffff;
+  text-align: left;
+  font: 700 12px "Inter", sans-serif;
+  position: relative;
+}
+.don-t-have-an-account-register {
+  text-align: left;
+  font: 400 12px "Inter", sans-serif;
+  position: relative;
+  width: 203px;
+  height: 19px;
+}
+.don-t-have-an-account-register-span {
+  color: #000000;
+  font: 400 12px "Inter", sans-serif;
+}
+.don-t-have-an-account-register-span2 {
+  color: #2c4bb5;
+  font: 400 12px "Inter", sans-serif;
+}
+.smart-rent {
+  color: #000000;
+  text-align: center;
+  font: 700 24px "Inter", sans-serif;
+  position: absolute;
+  left: 9px;
+  top: 7px;
+  width: 158px;
+}
+}
